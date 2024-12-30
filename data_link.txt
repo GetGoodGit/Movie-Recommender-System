@@ -1,0 +1,17 @@
+'movies.pkl' and 'similarity.pkl' are required to run application from file app.py.
+
+'tmdb_5000_credits.csv' and 'tmdb_5000_movies.csv' are required to run 'Movie_Recommender.ipynb' file 
+ where recommendation model is trained.
+
+LINK - https://drive.google.com/drive/folders/1RprdDCpELZM1vMxzQmL7pdW2nja6j4xz?usp=sharing
+
+Note- DataSet is from TMDB site(Kaggle data) but posters are fetched from OMDB because TMDB is banned in India.
+
+
+
+For running app
+install streamlit library in the python environment.
+Open 'app.py' file. It requires 'movies.pkl' and 'similarity.pkl' files.
+In terminal write -> streamlit run app.py
+
+
